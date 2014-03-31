@@ -1,0 +1,19 @@
+{% extends "forum/base.html" %}
+
+{% block main %}
+<h1>Список форумов</h1>
+
+{% regroup object_list by group as groups %}
+
+{% for group in groups %}
+
+{% if group.grouper %}<h2>{{ group.grouper|escape }}</h2>{% endif %}
+<ul>
+{% for forum in group.list %}
+  <li><a href="{{ forum.slug }}/">{{ forum|escape }}</a>
+{% endfor %}
+</ul>
+
+{% endfor %}
+
+{% endblock %}

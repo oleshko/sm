@@ -1,0 +1,9 @@
+{% extends "forum/base.html" %}
+
+{% block main %}
+<h1>Форум {{ forum }}</h1>
+
+{% for topic in object_list %}
+	<p><a href = "./{{ topic.id }}">{{ topic }}</a></p>
+{% endfor %}
+{% endblock %}

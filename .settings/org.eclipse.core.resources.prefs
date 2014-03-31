@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//consultations/models.py=utf-8
+encoding//core/settings.py=utf-8
+encoding//core/urls.py=utf-8
+encoding//experts/models.py=utf-8
+encoding//forum/models.py=utf-8
+encoding//forum/settings.py=utf-8
+encoding//forum/urls.py=utf-8
+encoding//forum/views.py=utf-8
+encoding//polls/admin.py=utf-8
+encoding//polls/models.py=utf-8
+encoding//polls/urls.py=utf-8
+encoding//polls/views.py=utf-8
