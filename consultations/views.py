@@ -3,4 +3,4 @@ from django.shortcuts import render
 
 def sign ( request ) :
     
-    return render( request, 'consultations/sign.html', {} )
+    return render( request, 'consultations/index.html', {} )
