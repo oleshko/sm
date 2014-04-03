@@ -1,4 +1,4 @@
-*.pyc
+consultations/*.pyc
 *.zip
 *~
 
